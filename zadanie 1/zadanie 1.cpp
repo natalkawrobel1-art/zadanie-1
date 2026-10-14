@@ -4,22 +4,91 @@
 #include <iostream>
 using namespace std;
 int main() {
-//zadanie 1 
-cout << "XX    XX"<< " " << "XXX"<<"       "<<"XXX" << endl;
-cout << "XX X  XX"<< " " << " XXX"<<"     "<<"XXX" << endl;
-cout << "XX  X XX" << " " << "  XXX"<<" X "<<"XXX" << endl;
-cout << "XX    XX" << " " << "   XXX"<<" "<<"XXX" << endl;
-//zadanie 2 
- 
-cout << "  X   X   X   " << endl;
-cout << "   X  X  X " << endl;
-cout << "    X X X " << endl;
-cout << "    X X X " << endl;
-cout << "   X     X " << endl;
-cout << "  X       X  " << endl;
-cout << " X         X" << endl;
-return 0;
+	//zadanie 1 
+	cout << "XX    XX" << " " << "XXX" << "       " << "XXX" << endl;
+	cout << "XX X  XX" << " " << " XXX" << "     " << "XXX" << endl;
+	cout << "XX  X XX" << " " << "  XXX" << " X " << "XXX" << endl;
+	cout << "XX    XX" << " " << "   XXX" << " " << "XXX" << endl;
+	//zadanie 2 
+
+	cout << "  X   X   X   " << endl;
+	cout << "   X  X  X " << endl;
+	cout << "    X X X " << endl;
+	cout << "    X X X " << endl;
+	cout << "   X     X " << endl;
+	cout << "  X       X  " << endl;
+	cout << " X         X" << endl;
+	//zadanie 3
+
+	cout << "Lista obecności\n\n";
+	cout << "Nr\tImie\tNazwisko\tObecnosc\n";
+	cout << "1\tAnna\tKowalska\tObecna\n";
+	cout << "2\tJakub\tnowak\t\tNieobecny\n";
+	cout << "3\tZofia\tDechnik\t\tObecna\n";
+	//zadanie 4 wersja 1	
+
+	int a;
+	int b;
+	cout << "Prosze podac wartosc liczby a\n";
+	cin >> a;
+	cout << "Prosze podac wartosc liczby b\n";
+	cin >> b;
+	int c;
+	c = a + b;
+	cout << "Wynik dodawania to: " << c << "\n";
+	c = a * b;
+	cout << "Wynik mnozenia to: " << c << "\n";
+
+	//zadania 4 wersja 2
+
+	float x;
+	float y;
+	cout << "Prosze podac wartosc liczby x\n";
+	cin >> x;
+	cout << "Prosze podac wartosc liczby y\n";
+	cin >> y;
+	float z;
+	z = x + y;
+	cout << "Wynik dodawania to: " << z << "\n";
+	z = x * y;
+	cout << "Wynik mnozenia to: " << z << "\n";
+
+	//zadanie 5 
+
+	double f;
+	cout << " Prosze podac temperature\n ";
+	cin >> f;
+	double s;
+	s = 5.0 * (f - 32.0) / 9.0;
+	cout << f << "Stopni Fahreinheita to " << s << "Stopni Celsjusza\n";
+
+	//zadanie 6 
+	string i;
+	string n;
+	int w;
+	cout << " Prosze podac imie\n";
+	cin >> i;
+	cout << " Prosze podac nazwisko\n";
+	cin >> n;
+	cout << " Prosze podac wiek\n";
+	cin >> w;
+	cout << " Nazywasz sie " << i << " " << n << " i masz " << w << " " << " lat\n";
+
+	//zadanie 7 
+	int m;
+	int k;
+	cout << "Prosze podac liczbe m\n";
+	cin >> m;
+	cout << "Prosze podac liczbe k\n";
+	cin >> k;
+	cout << "Wynik dodawania to: " << m + k << "\n";
+	cout << "Wynik odejmowania to: " << m - k << "\n";
+	cout << "Wynik mnozenia to: " << m * k << "\n";
+	cout << "Wynik dzielenia calkowitego to: " << m / k << "\n";
+	cout << "Reszta z dzielenia to: " << m % k << "\n";
+	return 0;
 }
+	
 
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
