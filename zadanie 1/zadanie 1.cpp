@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 int main() {
 	//zadanie 1 
@@ -86,9 +87,28 @@ int main() {
 	cout << "Wynik mnozenia to: " << m * k << "\n";
 	cout << "Wynik dzielenia calkowitego to: " << m / k << "\n";
 	cout << "Reszta z dzielenia to: " << m % k << "\n";
+
+	//zadanie 9 
+	double r;
+	cout << "Prosze podac promien kola \n";
+	cin >> r;
+	double g;
+	g = r * r * (3.14159265350);
+	cout << "Promien kola to " << z << "\n";
+	double v;
+	v = r * (2 * 3.1415926535);
+	cout << "Obwod kola to " << x << "\n";
+
+	//zadanie 11
+	double o;
+	cout << "Prosze podac temperature \n";
+	cin >> o;
+	double p = (9.0 / 5.0) * o + 32;
+	cout << fixed << setprecision(2);
+	cout << "Temperatura wynosi " << p << " stopni Fahrenheita\n";
 	return 0;
 }
-	
+
 
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
