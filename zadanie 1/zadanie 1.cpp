@@ -21,10 +21,10 @@ int main() {
 	cout << " X         X" << endl;
 	//zadanie 3
 
-	cout << "Lista obecności\n\n";
+	cout << "Lista obecnosci\n\n";
 	cout << "Nr\tImie\tNazwisko\tObecnosc\n";
 	cout << "1\tAnna\tKowalska\tObecna\n";
-	cout << "2\tJakub\tnowak\t\tNieobecny\n";
+	cout << "2\tJakub\tNowak\t\tNieobecny\n";
 	cout << "3\tZofia\tDechnik\t\tObecna\n";
 	//zadanie 4 wersja 1	
 
@@ -94,7 +94,7 @@ int main() {
 	cin >> r;
 	double g;
 	g = r * r * (3.14159265350);
-	cout << "Promien kola to " << z << "\n";
+	cout << "Pole kola to " << z << "\n";
 	double v;
 	v = r * (2 * 3.1415926535);
 	cout << "Obwod kola to " << x << "\n";
